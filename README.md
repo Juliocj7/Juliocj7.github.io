@@ -33,9 +33,6 @@
 
 ![Screenshot_20220522-085416_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696175-94e0985a-7a3b-4dfc-97f8-ca6a6ec4e8d7.png)
 
-![Screenshot_20220522-085456_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696229-5baed595-dc79-47c0-b93e-414044639d76.png)
-
-
 
 ## CCGenCj7 :
 * [https://Juliocj7.github.io](https://Juliocj7.github.io)

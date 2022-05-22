@@ -23,15 +23,24 @@
 </details>
 
 
-## Página Web :
+## DarkWebCj7 :
 
-![Screenshot_20210920-212324_Chrome](https://user-images.githubusercontent.com/81049859/134098773-08164472-5f81-4682-b1ee-bb163b27105e.png)
+![Screenshot_20220522-085127_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696155-97933580-1c60-4fb3-8d8d-d656567cc56f.png)
 
-![Screenshot_20210919-121219_Chrome](https://user-images.githubusercontent.com/81049859/133934876-eabe806f-dc98-4c17-9842-8389c9b60e6d.jpg)
+![Screenshot_20220522-085225_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696165-ef4def2f-c535-479a-8f10-fde992134444.png)
+
+![Screenshot_20220522-085310_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696217-c69d396e-5ae6-4255-a724-838319e727ea.png)
+
+![Screenshot_20220522-085416_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696175-94e0985a-7a3b-4dfc-97f8-ca6a6ec4e8d7.png)
+
+![Screenshot_20220522-085456_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696229-5baed595-dc79-47c0-b93e-414044639d76.png)
+
+
 
 ## CCGenCj7 :
 * [https://Juliocj7.github.io](https://Juliocj7.github.io)
-* Generador de **tarjetas de crédito**.
+* Generador y extrapolador de **tarjetas de crédito y débito**.
+* Servidor de medios con un límite de hasta **700mb**.
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:
 - > ` By: ⍣᭕ᬁ᭖JulioCj7᭖᭕ᬁ⍣ `
 

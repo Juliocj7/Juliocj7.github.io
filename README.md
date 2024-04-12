@@ -32,7 +32,7 @@ ______________________________________________________
       <img src= "https://github.com/Juliocj7/Juliocj7/blob/main/BarCj7.gif" />
     </a>
     <br><br>
-    <p align="left"><strong><samp>「</samp><strong></p>
+    <p align="left"><strong><samp>「</samp></strong></p>
     <samp>
       Puedes mirar pero no
       copiar<br>inmundo animal xD

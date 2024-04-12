@@ -47,9 +47,9 @@ ______________________________________________________
 
 * Website: [https://Juliocj7.github.io](https://Juliocj7.github.io)
 
-![1000329554](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/80bba9df-f99d-4633-b410-b617275a6fc2)
+![1000329554](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/4cf3e588-2009-4110-b5a1-221e3c90a7b2)
 
-![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/961aacda-d6a5-49b3-9e25-47c2aa114cc0)
+![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
 ## CCGenCj7 :
 * Generador y extrapolador de **tarjetas de crédito y débito**.

@@ -43,13 +43,13 @@ ______________________________________________________
 </div>
 
 ## DarkWebCj7 :
-![Screenshot_20220522-085127_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696155-97933580-1c60-4fb3-8d8d-d656567cc56f.png)
+![1000329540](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/89f297c3-0c72-4bc9-9fe0-36fecb097215)
 
 * Website: [https://Juliocj7.github.io](https://Juliocj7.github.io)
 
-![Screenshot_20220522-085225_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696165-ef4def2f-c535-479a-8f10-fde992134444.png)
+![1000329554](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/80bba9df-f99d-4633-b410-b617275a6fc2)
 
-![Screenshot_20220522-085310_Kiwi Browser](https://user-images.githubusercontent.com/81049859/169696217-c69d396e-5ae6-4255-a724-838319e727ea.png)
+![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/961aacda-d6a5-49b3-9e25-47c2aa114cc0)
 
 ## CCGenCj7 :
 * Generador y extrapolador de **tarjetas de crédito y débito**.

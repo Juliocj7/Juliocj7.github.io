@@ -47,7 +47,7 @@ ______________________________________________________
 
 <div align="center">
 
-` my website: ` [𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝](https://Juliocj7.github.io)
+  > website: [`𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝`](https://Juliocj7.github.io)
 
 </div>
 
@@ -56,7 +56,7 @@ ______________________________________________________
 ![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
 > [!TIP]
-> > Super generador y extrapolador de tarjetas de **crédito** y **débito**
+> > Super generador y extrapolador de tarjetas de **crédito** y **débito**.
 
 ## CCGenCj7 :
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:

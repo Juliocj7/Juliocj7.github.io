@@ -56,11 +56,11 @@ ______________________________________________________
 ![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
 ```ShellSession
-[𝙲𝚛𝚎𝚊𝚝𝚎𝚍@𝙱𝚢]:~$ #⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𝙲𝚓7᭖᭕ᬁ⍣
+[𝙼𝚊𝚔𝚎@𝙱𝚢]:~$ #⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣
 ```
 
 ## CCGenCj7 :
-> [!TIP]
+> [!NOTE]
 > > Super generador y extrapolador de tarjetas de **crédito** y **débito**.
 
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:

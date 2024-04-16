@@ -42,7 +42,7 @@ ______________________________________________________
   </details>
 </div>
 
-## DarkWebCj7 :
+## Dark Website :
 ![1000329540](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/89f297c3-0c72-4bc9-9fe0-36fecb097215)
 
 <div align="center">
@@ -55,11 +55,7 @@ ______________________________________________________
 
 ![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
-```ShellSession
-[𝙼𝚊𝚔𝚎@𝙱𝚢]:~$ #⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𝙲𝚓7᭖᭕ᬁ⍣
-```
-
-## CCGenCj7 :
+## CCGeneratorCj7 :
 > [!NOTE]
 > > Super generador y extrapolador de tarjetas de **crédito** y **débito**.
 
@@ -67,6 +63,17 @@ ______________________________________________________
 * > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `
 
 ---
-###### `Pd: Porfavor informar cualquier error`
-###### `By: JulioCj7 +59179424937` :stuck_out_tongue_winking_eye:
+
+```ShellSession
+[𝙼𝚊𝚔𝚎@𝙱𝚢]:~$ #+59179424937 😜
+```
+
+<div align="center">
+  <sub>
+    
+  > 𝙿𝚘𝚛𝚏𝚊𝚟𝚘𝚛 𝚒𝚗𝚏𝚘𝚛𝚖𝚊𝚛 𝚌𝚞𝚊𝚕𝚚𝚞𝚒𝚎𝚛 𝚎𝚛𝚛𝚘𝚛
+
+  </sub>
+</div>
+
 ---

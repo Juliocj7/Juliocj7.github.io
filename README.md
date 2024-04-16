@@ -26,8 +26,8 @@ ______________________________________________________
 
 <div align="center">
   <details>
-    <summary>  ⸸𝕵𝖚𝖑𝖎𝖔𖤐𝖈𝖏7⸸ </summary>
-    <!--<summary>  𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 </summary>-->
+    <!--<summary>  ⸸𝕵𝖚𝖑𝖎𝖔𖤐𝖈𝖏7⸸ </summary>-->
+    <summary>  𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 </summary>
     <a href="#--------">
       <img src= "https://github.com/Juliocj7/Juliocj7/blob/main/BarCj7.gif" />
     </a>
@@ -55,12 +55,16 @@ ______________________________________________________
 
 ![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
+```ShellSession
+[𝙲𝚛𝚎𝚊𝚝𝚎𝚍@𝙱𝚢]:~$ #⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣
+```
+
 > [!TIP]
 > > Super generador y extrapolador de tarjetas de **crédito** y **débito**.
 
 ## CCGenCj7 :
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:
-- > ` By: ⍣᭕ᬁ᭖JulioCj7᭖᭕ᬁ⍣ `
+* > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `
 
 ---
 ###### `Pd: Porfavor informar cualquier error`

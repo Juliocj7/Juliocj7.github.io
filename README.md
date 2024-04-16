@@ -57,7 +57,7 @@ ______________________________________________________
 
 ## CCGeneratorCj7 :
 > [!NOTE]
-> > Super generador y extrapolador de tarjetas de **crédito** y **débito**.
+> > Super `generador` y `extrapolador` de tarjetas de **crédito** y **débito**.
 
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:
 * > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `

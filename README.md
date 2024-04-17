@@ -57,10 +57,10 @@ ______________________________________________________
 
 ## CCGeneratorCj7 :
 > [!NOTE]
-> > `Generador` y `extrapolador` de tarjetas de **crédito** y **débito**.
+> > `𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛` 𝚢 `𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛` 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 **𝚌𝚛𝚎𝚍𝚒𝚝𝚘** 𝚢 **𝚍𝚎𝚋𝚒𝚝𝚘**
 
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:
-* > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `
+- > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `
 
 ---
 
@@ -76,4 +76,8 @@ ______________________________________________________
   </sub>
 </div>
 
----
+<div align="center">
+  <a href="#--------">
+    <img src= "https://github.com/Juliocj7/Juliocj7/blob/main/BarCj7.gif"/>
+  </a>
+</div>

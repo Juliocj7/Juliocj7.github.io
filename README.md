@@ -42,7 +42,7 @@ ______________________________________________________
   </details>
 </div>
 
-## Dark Website :
+## [Dark Website :]()
 ![1000329540](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/89f297c3-0c72-4bc9-9fe0-36fecb097215)
 
 <div align="center">
@@ -55,7 +55,7 @@ ______________________________________________________
 
 ![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
-## CCGeneratorCj7 :
+## [CCGeneratorCj7 :]()
 > [!NOTE]
 > > `𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛` 𝚢 `𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛` 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 **𝚌𝚛𝚎𝚍𝚒𝚝𝚘** 𝚢 **𝚍𝚎𝚋𝚒𝚝𝚘**
 

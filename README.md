@@ -56,8 +56,8 @@ ______________________________________________________
 ![1000329555](https://github.com/Juliocj7/Juliocj7.github.io/assets/81049859/e2e9dfef-ac72-43f2-ba6d-be1e5531e5e9)
 
 ## [CCGeneratorCj7 :]()
-> [!NOTE]
-> > `𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛` 𝚢 `𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛` 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 **𝚌𝚛𝚎𝚍𝚒𝚝𝚘** 𝚢 **𝚍𝚎𝚋𝚒𝚝𝚘**
+> [!IMPORTANT]
+> > <sub>𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛 𝚢 𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 𝚌𝚛𝚎𝚍𝚒𝚝𝚘 𝚢 𝚍𝚎𝚋𝚒𝚝𝚘</sub>
 
 * Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:
 - > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `

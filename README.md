@@ -34,8 +34,8 @@ ______________________________________________________
     <br><br>
     <p align="left"><strong><samp>「</samp></strong></p>
     <samp>
-      Puedes mirar pero no
-      copiar<br>inmundo animal xD
+      𝙿𝚞𝚎𝚍𝚎𝚜 𝚖𝚒𝚛𝚊𝚛 𝚙𝚎𝚛𝚘 𝚗𝚘 <br>𝚌𝚘𝚙𝚒𝚊𝚛
+      𝚒𝚗𝚖𝚞𝚗𝚍𝚘 𝚊𝚗𝚒𝚖𝚊𝚕 𝚡𝙳
     </samp>
     <br>
     <p align="right"><strong><samp>」</samp></strong></p>
@@ -47,7 +47,7 @@ ______________________________________________________
 
 <div align="center">
 
-  > website: [`𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝`](https://Juliocj7.github.io)
+  > 𝚠𝚎𝚋𝚜𝚒𝚝𝚎 : &nbsp; ¡[`𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝`](https://Juliocj7.github.io)!
 
 </div>
 
@@ -59,7 +59,7 @@ ______________________________________________________
 > [!IMPORTANT]
 > > <sub>𝙴𝚕 𝚖𝚎𝚓𝚘𝚛 𝚐𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛 𝚢 𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 𝚌𝚛𝚎𝚍𝚒𝚝𝚘 𝚢 𝚍𝚎𝚋𝚒𝚝𝚘</sub>
 
-* Contenido, código, diseño y demás, pertenecen plena y totalmente a mí :sunglasses:
+* El contenido, código, diseño y todo lo relacionado, son propiedad exclusiva mía :sunglasses:
 - > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `
 
 ---
@@ -71,7 +71,7 @@ ______________________________________________________
 ---
 
 ```ShellSession
-[𝙼𝚊𝚔𝚎@𝙱𝚢]:~$ #+59179424937 😜
+[𝙼𝚊𝚔𝚎@𝙱𝚢]:~$ #+𝟻𝟿𝟷𝟽𝟿𝟺𝟸𝟺𝟿𝟹𝟽 😜
 ```
 
 <div align="center">

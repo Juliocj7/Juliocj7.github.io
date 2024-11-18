@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <!--
+    [!𝚄𝚂𝙰𝙶𝙴] ... 𝚢𝚘𝚞 𝚚𝚞𝚎𝚛𝚢:
+    ————————————————————————————————————————————————————
+    https://juliocj7.github.io/music.html/?p=<audio_url>
+    ————————————————————————————————————————————————————
+  -->
+
+  <head>
+
+    <title> SimplyTheBest </title>
+    <meta charset="utf-8" />
+    <meta name="author" content="JulioCj7" />
+    <meta name="description" content="A simply music player" />
+    <meta name="viewport" content="initial-scale=0.6, user-scalable=no" />
+    <meta property="og:title" content="JavaScript Music Player - JulioCj7">
+    <meta property="og:url" content="https://github.com/Juliocj7">
+    <meta property="og:image" content="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/dragonred1.png">
+    <meta property="og:description" content="A simple website to read an audio file URL from the query string">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono" rel="stylesheet">
+
+  </head>
+
+  <style>
+
+    body {
+      background-color: black;
+      color: #AFFF00;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: #252525;
+      font-family: "Fira Mono", monospace;
+      font-size: 16px;
+      padding: 10px 0;
+      background-color: black;
+    }
+
+    .__c1 { color: #454545; }
+
+    .__c2 { color: #AFFF00; }
+
+    #loader {
+      display: none;
+      border: 8px solid #454545;
+      border-radius: 50%;
+      border-top: 8px solid #AFFF00;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    @keyframes spin {
+      0% { transform: translate(-50%, -50%) rotate(0deg); }
+      100% { transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+    #audioPlayer {
+      display: none;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  </style>
+
+ <body>
+
+    <!--
+
+      𝙹𝚞𝚕𝚒𝚘𝙲𝚓𝟽 ¡𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝!
+      𝙲𝚘𝚙𝚢𝚛𝚒𝚐𝚑𝚝 © 𝟸𝟶𝟸𝟻 𝚊𝚕𝚕 𝚛𝚒𝚐𝚑𝚝𝚜 𝚛𝚎𝚜𝚎𝚛𝚟𝚎𝚍
+
+    -->
+
+    <div id="loader"></div>
+    <audio id="audioPlayer" controls>
+      <source id="source" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <script>
+
+      const audioUrl = new URL(location).searchParams.get("p");
+      const sourceElement = document.getElementById("source");
+      const audioPlayer = document.getElementById("audioPlayer");
+      const loader = document.getElementById("loader");
+
+      sourceElement.src = audioUrl;
+      audioPlayer.addEventListener('loadstart', function() {
+        loader.style.display = 'block';
+        audioPlayer.style.display = 'none';
+      });
+      audioPlayer.addEventListener('canplay', function() {
+        loader.style.display = 'none';
+        audioPlayer.style.display = 'block';
+      });
+      audioPlayer.addEventListener('error', function() {
+        loader.style.display = 'none';
+        audioPlayer.style.display = 'block'; // Or you could handle the error differently
+      });
+      audioPlayer.load();
+
+    </script>
+
+    <footer>
+      <span class="__c1">JulioCj7</span>
+      <span class="__c2">¡SimplyTheBest!</span>
+    </footer>
+
+  </body>
+
+</html>

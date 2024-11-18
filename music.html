@@ -3,9 +3,9 @@
 
   <!--
     [!𝚄𝚂𝙰𝙶𝙴] ... 𝚢𝚘𝚞 𝚚𝚞𝚎𝚛𝚢:
-    ——————————————————————————————————————————————
-    https://juliocj7.github.io/music?p=<audio_url>
-    ——————————————————————————————————————————————
+    —————————————————————————————————————————————————
+    https://juliocj7.github.io/music?play=<audio_url>
+    —————————————————————————————————————————————————
   -->
 
   <head>
@@ -97,7 +97,7 @@
 
     <script>
 
-      const audioUrl = new URL(location).searchParams.get("p");
+      const audioUrl = new URL(location).searchParams.get("play");
       const sourceElement = document.getElementById("source");
       const audioPlayer = document.getElementById("audioPlayer");
       const loader = document.getElementById("loader");
@@ -113,7 +113,7 @@
       });
       audioPlayer.addEventListener('error', function() {
         loader.style.display = 'none';
-        audioPlayer.style.display = 'block'; // Or you could handle the error differently
+        audioPlayer.style.display = 'block';
       });
       audioPlayer.load();
 

@@ -6,8 +6,8 @@
 /*𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝*/*𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝*/*𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝*/-->
 
 <div align="center">
-  <a href="https://github.com/Juliocj7">
-    <img title="Author" src="https://img.shields.io/badge/Author-𖤐 𝙹𝚞𝚕𝚒𝚘 𝙲𝚓7 𖤐-svg?style=flat&color=000000&logo=github">
+  <a href="#------">
+    <img title="author" src="https://img.shields.io/badge/Author-⸸ 𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 ⸸-svg?label=Author%20:&labelColor=222&style=flat&color=000&logo=github">
   </a>
 </div>
 
@@ -15,7 +15,10 @@
 
 <div align="center">
   <a href="#--------">
-    <img title="Mi Banner" src="https://github.com/Juliocj7/Juliocj7/blob/main/InicioCj72.gif" width="350" height="105" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/banner-dark.gif">
+      <img alt="banner gh-profile" src="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/banner-light.gif">
+    </picture>
   </a>
 </div>
 
@@ -55,8 +58,8 @@
 ## [CCGeneratorCj7 :](#---)
 > [!NOTE]
 > 
-> > * [x] `𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛 𝚢 𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 𝚌𝚛𝚎𝚍𝚒𝚝𝚘 𝚢 𝚍𝚎𝚋𝚒𝚝𝚘 𝚖𝚊𝚜 𝚙𝚛𝚎𝚌𝚒𝚜𝚘 𝚢 𝚎𝚏𝚒𝚌𝚒𝚎𝚗𝚝𝚎`
-> > * [x] `𝙸𝚍𝚎𝚊𝚕 𝚙𝚊𝚛𝚊 𝚜𝚒𝚖𝚞𝚕𝚊𝚛 𝚢 𝚟𝚊𝚕𝚒𝚍𝚊𝚛 𝚝𝚛𝚊𝚗𝚜𝚊𝚌𝚌𝚒𝚘𝚗𝚎𝚜 𝚍𝚎 𝚏𝚘𝚛𝚖𝚊 𝚜𝚎𝚐𝚞𝚛𝚊 𝚢 𝚌𝚘𝚗𝚏𝚒𝚊𝚋𝚕𝚎`
+> > * `𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛 𝚢 𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 𝚌𝚛𝚎𝚍𝚒𝚝𝚘 𝚢 𝚍𝚎𝚋𝚒𝚝𝚘 𝚖𝚊𝚜 𝚙𝚛𝚎𝚌𝚒𝚜𝚘 𝚢 𝚎𝚏𝚒𝚌𝚒𝚎𝚗𝚝𝚎`
+> > * `𝙸𝚍𝚎𝚊𝚕 𝚙𝚊𝚛𝚊 𝚜𝚒𝚖𝚞𝚕𝚊𝚛 𝚢 𝚟𝚊𝚕𝚒𝚍𝚊𝚛 𝚝𝚛𝚊𝚗𝚜𝚊𝚌𝚌𝚒𝚘𝚗𝚎𝚜 𝚍𝚎 𝚏𝚘𝚛𝚖𝚊 𝚜𝚎𝚐𝚞𝚛𝚊 𝚢 𝚌𝚘𝚗𝚏𝚒𝚊𝚋𝚕𝚎`
 
 * El contenido, código, diseño y todo lo relacionado, son propiedad exclusiva mía :sunglasses:
 - > 𝙱𝚢: ` ⍣᭕ᬁ᭖𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7᭖᭕ᬁ⍣ `

@@ -84,8 +84,8 @@
 </div>
 
 <div align="center">
-  <a href="#--------">
-    <img src= "https://github.com/Juliocj7/Juliocj7/blob/main/BarCj7.gif"/>
+  <a href="#---">
+    <img src="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/rainbowbar2.gif" />
   </a>
 </div>
 

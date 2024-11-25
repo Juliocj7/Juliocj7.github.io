@@ -7,7 +7,7 @@
 
 <div align="center">
   <a href="#---">
-    <img alt="author gh-profile" src="https://img.shields.io/badge/Author-⸸ 𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 ⸸-svg?label=Author%20:&labelColor=222&style=flat&color=000&logo=github">
+    <img alt="author gh-profile" src="https://img.shields.io/badge/Author-⸸ 𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 ⸸-svg?label=Author%20:&labelColor=222&style=flat&color=000&logo=github" />
   </a>
 </div>
 

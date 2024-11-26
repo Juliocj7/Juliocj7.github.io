@@ -16,9 +16,12 @@
     <meta name="description" content="A simply music player" />
     <meta name="viewport" content="initial-scale=0.6, user-scalable=no" />
     <meta property="og:title" content="JavaScript Music Player - JulioCj7">
-    <meta property="og:url" content="https://github.com/Juliocj7">
-    <meta property="og:image" content="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/dragonred1.png">
+    <meta property="og:url" content="www.github.com">
+    <meta property="og:image" content="">
     <meta property="og:description" content="A simple website to read an audio file URL from the query string">
+    <link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono" rel="stylesheet">
@@ -28,34 +31,64 @@
   <style>
 
     body {
-      background-color: black;
+      background-color: #0e0e14;
       color: #AFFF00;
       height: 100%;
       margin: 0;
       padding: 0;
     }
 
+    body::before, body::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 5px;
+    }
+
+    body::before {
+      top: 0;
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    }
+
+    body::after {
+      bottom: 0;
+      background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    }
+
     footer {
+      display: flex;
       position: fixed;
       bottom: 0;
-      width: 100%;
+      width: 70%;
+      height: 3%;
       text-align: center;
       color: #252525;
       font-family: "Fira Mono", monospace;
-      font-size: 16px;
+      font-size: 17px;
       padding: 10px 0;
       background-color: black;
+      margin-bottom: 15px;
+      border-radius: 50px;
+      align-items: center;
+      justify-content: center;
+      left: 50%;
+      transform: translateX(-50%);
     }
 
-    .__c1 { color: #454545; }
+    .__c1 { color: #4e4e4e; }
 
-    .__c2 { color: #AFFF00; }
+    .__c2 {
+      background: -webkit-linear-gradient(45deg, #000, #00d7ff, #00d7ff, #000);
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+    }
 
     #loader {
       display: none;
       border: 8px solid #454545;
       border-radius: 50%;
-      border-top: 8px solid #AFFF00;
+      border-top: 8px solid #eee;
       width: 40px;
       height: 40px;
       animation: spin 1s linear infinite;
@@ -120,8 +153,8 @@
     </script>
 
     <footer>
-      <span class="__c1">JulioCj7</span>
-      <span class="__c2">¡SimplyTheBest!</span>
+      <span class="__c1">𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓𝟽&nbsp;</span>
+      <span class="__c2">¡𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝!</span>
     </footer>
 
   </body>

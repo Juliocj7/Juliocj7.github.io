@@ -5,7 +5,7 @@
   —————————————————————————————————————————————————————
 /*𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝*/*𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝*/*𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝*/-->
 
-<div align="center">
+<div align="center" id="inicio">
   <a href="#---">
     <img alt="author gh-profile" src="https://img.shields.io/badge/Author-⸸ 𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 ⸸-svg?label=Author%20:&labelColor=222&style=flat&color=000&logo=github" />
   </a>
@@ -16,8 +16,8 @@
 <div align="center">
   <a href="#---">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/banner-dark.gif">
-      <img alt="banner gh-profile" src="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/banner-light.gif" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Juliocj7/Juliocj7/blob/main/assets/image/banner-dark.gif">
+      <img alt="banner gh-profile" src="https://github.com/Juliocj7/Juliocj7/blob/main/assets/image/banner-light.gif" />
     </picture>
   </a>
 </div>
@@ -28,7 +28,7 @@
   <details>
     <summary>  𝙹𝚞𝚕𝚒𝚘𖤐𝙲𝚓7 </summary>
     <a href="#---">
-      <img src="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/rainbowbar2.gif" />
+      <img src="https://github.com/Juliocj7/Juliocj7/blob/main/assets/image/rainbowbar2.gif" />
     </a>
     <br><br>
     <p align="left"><strong><samp>「</samp></strong></p>
@@ -84,8 +84,13 @@
 </div>
 
 <div align="center">
+  <a href="#repo-content-pjax-container">
+    <img alt="scroll-up" src="https://raw.githubusercontent.com/Juliocj7/Juliocj7/main/assets/image/i-scrollup.gif" width="35" height="35" />
+</div>
+
+<div align="center">
   <a href="#---">
-    <img src="https://github.com/Juliocj7/Juliocj7/blob/main/imagesgif/rainbowbar2.gif" />
+    <img src="https://github.com/Juliocj7/Juliocj7/blob/main/assets/image/rainbowbar2.gif" />
   </a>
 </div>
 

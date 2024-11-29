@@ -42,6 +42,13 @@
 </div>
 
 ## [Dark Website :](#---)
+
+<div align="center">
+  
+[![pages-build-deployment](https://github.com/JulioCj7/Juliocj7.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/JulioCj7/Juliocj7.github.io/actions)
+
+</div>
+
 ![1000458918](https://github.com/user-attachments/assets/4786770d-d1af-4ea0-9829-230fc12b243c)
 
 <div align="center">

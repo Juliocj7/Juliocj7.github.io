@@ -57,7 +57,7 @@
 ## [CCGeneratorCj7 :](#---)
 > [!NOTE]
 > 
-> > * `𝙶𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛 𝚢 𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 𝚌𝚛𝚎𝚍𝚒𝚝𝚘 𝚢 𝚍𝚎𝚋𝚒𝚝𝚘 𝚙𝚛𝚎𝚌𝚒𝚜𝚘 𝚢 𝚎𝚏𝚒𝚌𝚒𝚎𝚗𝚝𝚎`
+> > * `𝚂𝚞𝚙𝚎𝚛 𝚐𝚎𝚗𝚎𝚛𝚊𝚍𝚘𝚛 𝚢 𝚎𝚡𝚝𝚛𝚊𝚙𝚘𝚕𝚊𝚍𝚘𝚛 𝚍𝚎 𝚝𝚊𝚛𝚓𝚎𝚝𝚊𝚜 𝚍𝚎 𝚌𝚛𝚎𝚍𝚒𝚝𝚘 𝚢 𝚍𝚎𝚋𝚒𝚝𝚘`
 > > * `𝙸𝚍𝚎𝚊𝚕 𝚙𝚊𝚛𝚊 𝚜𝚒𝚖𝚞𝚕𝚊𝚛 𝚢 𝚟𝚊𝚕𝚒𝚍𝚊𝚛 𝚝𝚛𝚊𝚗𝚜𝚊𝚌𝚌𝚒𝚘𝚗𝚎𝚜 𝚍𝚎 𝚏𝚘𝚛𝚖𝚊 𝚜𝚎𝚐𝚞𝚛𝚊 𝚢 𝚌𝚘𝚗𝚏𝚒𝚊𝚋𝚕𝚎`
 
 * El contenido, código, diseño y todo lo relacionado, son propiedad exclusiva y totalmente mía <img alt="i-boycute" src="https://github.com/Juliocj7/Juliocj7/blob/main/assets/image/i-boycute.png" width="20" height="20" />

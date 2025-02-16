@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <!--
+    [!𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃] ... 𝚒 𝚜𝚊𝚢:
+    ————————————————————————————————————————————————————
+    𝙿𝚞𝚎𝚍𝚎𝚜 𝚖𝚒𝚛𝚊𝚛 𝚙𝚎𝚛𝚘 𝚗𝚘 𝚌𝚘𝚙𝚒𝚊𝚛 𝚘 𝚛𝚘𝚋𝚊𝚛 ¡𝚒𝚗𝚖𝚞𝚗𝚍𝚘 𝚊𝚗𝚒𝚖𝚊𝚕!
+    ————————————————————————————————————————————————————
+  -->
+
+  <head>
+
+    <title> SimplyTheBest </title>
+    <meta charset="utf-8" />
+    <meta name="author" content="JulioCj7" />
+    <meta name="description" content="A simply matrix effect" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta property="og:title" content="Matrix Effect - JulioCj7">
+    <meta property="og:url" content="www.github.com">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Displays random letters that drop down the canvas like the matrix effect">
+    <link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono" rel="stylesheet">
+
+  </head>
+
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: black;
+      overflow: hidden;
+      font-family: monospace;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+  </style>
+
+  <body onload="startMainAnimation()">
+
+    <!--
+
+      𝙹𝚞𝚕𝚒𝚘𝙲𝚓𝟽 ¡𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝!
+      𝙲𝚘𝚙𝚢𝚛𝚒𝚐𝚑𝚝 © 𝟸𝟶𝟸𝟻 𝚊𝚕𝚕 𝚛𝚒𝚐𝚑𝚝𝚜 𝚛𝚎𝚜𝚎𝚛𝚟𝚎𝚍
+
+    -->
+
+    <canvas id="matrixCanvas"></canvas>
+
+  </body>
+
+  <script>
+
+    const canvas = document.getElementById('matrixCanvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    //const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%^&*()_+-=[]{}|;:,.<>?';
+    const characters = '"アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
+    const fontSize = 10;
+    const columns = canvas.width / fontSize;
+    const drops = Array(Math.floor(columns)).fill(1);
+
+    function drawMatrix() {
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      ctx.fillStyle = '#cccccc';
+      ctx.font = `${fontSize}px monospace`;
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = characters[Math.floor(Math.random() * characters.length)];
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+    }
+
+    function startMainAnimation() {
+      function animate() {
+        drawMatrix();
+        requestAnimationFrame(animate);
+      }
+      animate();
+    }
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+  </script>
+
+</html>

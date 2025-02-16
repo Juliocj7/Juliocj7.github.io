@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <!--
+    [!𝙸𝙼𝙿𝙾𝚁𝚃𝙰𝙽𝚃] ... 𝚒 𝚜𝚊𝚢:
+    ————————————————————————————————————————————————————
+    𝙿𝚞𝚎𝚍𝚎𝚜 𝚖𝚒𝚛𝚊𝚛 𝚙𝚎𝚛𝚘 𝚗𝚘 𝚌𝚘𝚙𝚒𝚊𝚛 𝚘 𝚛𝚘𝚋𝚊𝚛 ¡𝚒𝚗𝚖𝚞𝚗𝚍𝚘 𝚊𝚗𝚒𝚖𝚊𝚕!
+    ————————————————————————————————————————————————————
+  -->
+
+  <head>
+
+    <title> SimplyTheBest </title>
+    <meta charset="utf-8" />
+    <meta name="author" content="JulioCj7" />
+    <meta name="description" content="A simply notepad" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+    <meta property="og:title" content="Notepad - JulioCj7">
+    <meta property="og:url" content="www.github.com">
+    <meta property="og:image" content="">
+    <meta property="og:description" content="Note block developed for writing and editing plain text">
+    <link rel="mask-icon" href="https://github.githubassets.com/assets/pinned-octocat-093da3e6fa40.svg" color="#000000">
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+    <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg" data-base-href="https://github.githubassets.com/favicons/favicon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+  </head>
+
+  <style>
+
+    :root {
+      background: black;
+    }
+    body {
+      user-zoom: none;
+      user-select: none;
+      font-family: "Mona Sans", Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(to bottom right, #ff7b00, #ff5e9c);
+      min-height: 100vh;
+    }
+    h1 {
+      color: white;
+      margin-bottom: 20px;
+      text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.3);
+    }
+    #noteInput {
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      background: rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(10px);
+      transition: background 0.3s ease, box-shadow 0.3s ease;
+    }
+    #noteInput:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.6);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+    #addBtn {
+      padding: 8px 16px;
+      font-size: 16px;
+      background-color: #ff5e9c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transform: scale(0);
+      transition: transform 0.3s ease;
+    }
+    #addBtn:hover {
+      background-color: #ff4391;
+    }
+    .note {
+      width: 300px;
+      padding: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.4);
+      overflow-wrap:break-word;
+      backdrop-filter: blur(10px);
+      transition: transform 1s ease;
+    }
+    .delete-btn {
+      background: none;
+      color: black;
+      border: none;
+      border-radius: 3px;
+      padding: 4px;
+      cursor: pointer;
+      margin-left: 78vw;
+      margin-top: 4vw;
+      overflow-wrap: break-word;
+      transition: background-color 0.3s ease;
+      display: block;
+    }
+      .delete-btn:hover {
+      background-color: #ff2a2a;
+    }
+    #notes-container{
+      overflow: auto;
+      width: 90vw;
+      height: 65vh;
+      background: none;
+      margin-bottom: ppx;
+    }
+
+  </style>
+
+  <body>
+
+    <!--
+
+      𝙹𝚞𝚕𝚒𝚘𝙲𝚓𝟽 ¡𝚂𝚒𝚖𝚙𝚕𝚢𝚃𝚑𝚎𝙱𝚎𝚜𝚝!
+      𝙲𝚘𝚙𝚢𝚛𝚒𝚐𝚑𝚝 © 𝟸𝟶𝟸𝟻 𝚊𝚕𝚕 𝚛𝚒𝚐𝚑𝚝𝚜 𝚛𝚎𝚜𝚎𝚛𝚟𝚎𝚍
+
+    -->
+
+    <h1>Block de Notas</h1>
+    <input type="text" oninput="addNote()" id="noteInput" placeholder="Escribe una nota">
+    <button id="addBtn" onclick="enviar()">Agregar <i class="fas fa-plus"></i></button>
+    <div id="notes-container"></div>
+
+  </body>
+
+  <script>
+
+    const boton = document.getElementById("addBtn");
+    let textocopiado = document.getElementById('textocopiado');
+
+    function addNote() {
+      const noteInput = document.getElementById('noteInput');
+      if (noteInput.value.trim() === "") {
+        boton.style.transform = "scale(0)";
+      } else {
+        boton.style.transform = "scale(1)";
+      }
+    }
+
+    function addCopyListeners() {
+      const notes = document.querySelectorAll('.note');
+      notes.forEach(note => {
+        let tiempo;
+        note.addEventListener("touchstart", function(event) {
+          tiempo = setTimeout(function() {
+            const texto = note.querySelector('span').textContent;
+            navigator.vibrate(50);
+            navigator.clipboard.writeText(texto)
+              .then(() => console.log("Texto copiado al portapapeles"))
+              .catch(err => console.error('Error al copiar: ', err));
+          }, 2000);
+        });
+
+        note.addEventListener("touchend", function(event) {
+          clearTimeout(tiempo);
+        });
+      });
+    }
+
+    function enviar() {
+      const noteInput = document.getElementById('noteInput');
+      const notesContainer = document.getElementById('notes-container');
+      const noteText = noteInput.value;
+
+      if (noteText.trim() !== "") {
+        const note = document.createElement('div');
+        note.classList.add('note');
+
+        const noteContent = document.createElement('span');
+        noteContent.textContent = noteText;
+
+        const deleteBtn = document.createElement('button');
+        deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
+        deleteBtn.classList.add('delete-btn');
+        deleteBtn.onclick = function () {
+          notesContainer.removeChild(note);
+          updateLocalStorage();
+        };
+
+        note.appendChild(noteContent);
+        note.appendChild(deleteBtn);
+
+        if (notesContainer.firstChild) {
+          notesContainer.insertBefore(note, notesContainer.firstChild);
+        } else {
+          notesContainer.appendChild(note);
+        }
+
+        noteInput.value = '';
+        boton.style.transform = "scale(0)";
+        updateLocalStorage();
+
+        addCopyListeners();
+
+      } else {
+        console.log('Por favor, escribe una nota');
+      }
+    }
+
+    function updateLocalStorage() {
+      const notes = document.querySelectorAll('.note span');
+      const notesText = [];
+      notes.forEach(note => {
+        notesText.push(note.textContent);
+      });
+      localStorage.setItem('notes', JSON.stringify(notesText));
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      const notesContainer = document.getElementById('notes-container');
+      const storedNotes = JSON.parse(localStorage.getItem('notes'));
+
+      if (storedNotes && storedNotes.length > 0) {
+        storedNotes.reverse().forEach(noteText => {
+          const note = document.createElement('div');
+          note.classList.add('note');
+
+          const noteContent = document.createElement('span');
+          noteContent.textContent = noteText;
+
+          const deleteBtn = document.createElement('button');
+          deleteBtn.innerHTML = '<i class="fas fa-trash-alt"></i>';
+          deleteBtn.classList.add('delete-btn');
+          deleteBtn.onclick = function () {
+            notesContainer.removeChild(note);
+            updateLocalStorage();
+          };
+
+          note.appendChild(noteContent);
+          note.appendChild(deleteBtn);
+
+          notesContainer.insertBefore(note, notesContainer.firstChild);
+        });
+
+        addCopyListeners();
+      }
+    });
+
+  </script>
+
+</html>

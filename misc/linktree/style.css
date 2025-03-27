@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    cursor: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101218;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.center-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+    width: 80%;
+    max-width: 250px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: 5px solid #a5cdd9;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(1.2em, 5vw, 1.8em);
+    font-weight: 700;
+    color: #333847;
+    text-align: center;
+    cursor: default;
+}
+
+.links-circle {
+    --total-links: 6;
+    --radius: min(30vw, 250px);
+    --start-angle: -90deg;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease;
+}
+
+.links-circle a {
+    display: block;
+    position: absolute;
+    width: min(18vw, 120px);
+    height: min(18vw, 120px);
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    --angle: calc((var(--item-number) * (360deg / var(--total-links))) + (-55deg));
+    left: calc(50% + var(--radius) * cos(var(--angle)));
+    top: calc(50% + var(--radius) * sin(var(--angle)));
+    transform: translate(-50%, -50%);
+    perspective: 1000px; /* Add this for 3D effect */
+}
+
+.links-circle a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Add these new rules for the images */
+.links-circle a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.links-circle a,
+.links-circle a img {
+    cursor: pointer; /* Changes cursor to pointer when hovering */
+}
+
+.links-circle a:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+    animation: randomGlow 1.5s infinite;
+}
+
+.links-circle a:hover img {
+    transform: translateZ(50px) rotateY(360deg);
+    animation: popSpin 0.3s ease-out;
+}
+
+.links-circle a:nth-child(1) { --item-number: 0; }
+.links-circle a:nth-child(2) { --item-number: 1; }
+.links-circle a:nth-child(3) { --item-number: 2; }
+.links-circle a:nth-child(4) { --item-number: 3; }
+.links-circle a:nth-child(5) { --item-number: 4; }
+.links-circle a:nth-child(6) { --item-number: 5; }
+
+.bubbles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    width: min(5vw, 30px);
+    height: min(5vw, 30px);
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    animation: bubbleAnim 3s infinite;
+}
+
+@keyframes bubbleAnim {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+@keyframes randomGlow {
+    0% {
+        box-shadow: 0 0 5px var(--glow-color);
+    }
+
+    50% {
+        box-shadow: 0 0 20px var(--glow-color), 0 0 30px var(--glow-color);
+    }
+
+    100% {
+        box-shadow: 0 0 5px var(--glow-color);
+    }
+}
+
+@media (max-width: 480px) {  /* 768px */
+    .links-circle {
+        position: static;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .links-circle a {
+        position: static;
+        transform: none;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+
+    .links-circle a:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 480px) {
+    .links-circle {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@keyframes popSpin {
+    0% {
+        transform: translateZ(0) rotateY(0);
+    }
+
+    50% {
+        transform: translateZ(100px) rotateY(180deg);
+    }
+
+    100% {
+        transform: translateZ(50px) rotateY(360deg);
+    }
+}
